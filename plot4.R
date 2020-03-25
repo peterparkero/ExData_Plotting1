@@ -6,7 +6,7 @@ url = "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_con
 target.folder = "./data"
 
 # Load data
-df <- load_data(url, target.folder)
+df <- load_data(url, target.folder)  # Check ./src/load_data.R
 
 # Plot
 png(file = "plot4.png", width = 480, height = 480)
